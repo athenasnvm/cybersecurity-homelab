@@ -1,0 +1,14 @@
+$ whoami
+root
+$ id
+uid=1(daemon) gid=1(daemon) euid=0(root) groups=1(daemon)
+
+$ pwd
+/tmp
+
+$ test -r /etc/shadow && echo "SHADOW FILE READABLE" || echo "SHADOW FILE NOT READABLE"
+SHADOW FILE READABLE
+
+$ ps -p $$ -o user,pid,ppid,cmd
+USER       PID  PPID CMD
+root      4901  4899 sh

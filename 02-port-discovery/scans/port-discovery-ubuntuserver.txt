@@ -1,0 +1,8 @@
+# Nmap 7.99 scan initiated Sun Aug 16 22:53:13 2026 as: /usr/lib/nmap/nmap --privileged -p- -oN ubuntu-server-top1000.txt 192.168.56.103
+Nmap scan report for 192.168.56.103
+Host is up (0.077s latency).
+All 65535 scanned ports on 192.168.56.103 are in ignored states.
+Not shown: 65535 closed tcp ports (reset)
+MAC Address: 08:00:27:F8:31:B2 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sun Aug 16 22:53:40 2026 -- 1 IP address (1 host up) scanned in 27.12 seconds

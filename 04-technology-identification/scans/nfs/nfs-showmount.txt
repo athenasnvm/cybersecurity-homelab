@@ -1,0 +1,12 @@
+# Nmap 7.99 scan initiated Wed Aug 19 20:51:37 2026 as: /usr/lib/nmap/nmap --privileged --script nfs-showmount -p 111,2049 -oN nfs-showmount.txt 192.168.56.107
+Nmap scan report for 192.168.56.107
+Host is up (0.00058s latency).
+
+PORT     STATE SERVICE
+111/tcp  open  rpcbind
+| nfs-showmount: 
+|_  / *
+2049/tcp open  nfs
+MAC Address: 08:00:27:1F:1B:CD (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Wed Aug 19 20:51:37 2026 -- 1 IP address (1 host up) scanned in 0.14 seconds

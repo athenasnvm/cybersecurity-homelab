@@ -1,0 +1,12 @@
+# Nmap 7.99 scan initiated Wed Aug 19 17:10:28 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC -p 80 -oN http-enumeration.txt 192.168.56.107
+Nmap scan report for 192.168.56.107
+Host is up (0.00090s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.2.8 ((Ubuntu) DAV/2)
+|_http-title: Metasploitable2 - Linux
+|_http-server-header: Apache/2.2.8 (Ubuntu) DAV/2
+MAC Address: 08:00:27:1F:1B:CD (Oracle VirtualBox virtual NIC)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 19 17:10:35 2026 -- 1 IP address (1 host up) scanned in 6.74 seconds

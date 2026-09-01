@@ -1,0 +1,1 @@
+192.168.56.107:/ on /home/kali/nfs-mount type nfs (rw,relatime,vers=3,rsize=262144,wsize=262144,namlen=255,hard,fatal_neterrors=none,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=192.168.56.107,mountvers=3,mountport=39356,mountproto=udp,local_lock=none,addr=192.168.56.107)

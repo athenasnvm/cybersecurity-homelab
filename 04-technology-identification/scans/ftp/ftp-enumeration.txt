@@ -1,0 +1,21 @@
+# Nmap 7.99 scan initiated Wed Aug 19 16:45:44 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC -p 21 -oN ftp-enumeration.txt 192.168.56.107
+Nmap scan report for 192.168.56.107
+Host is up (0.00056s latency).
+
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 2.3.4
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.56.106
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      vsFTPd 2.3.4 - secure, fast, stable
+|_End of status
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+MAC Address: 08:00:27:1F:1B:CD (Oracle VirtualBox virtual NIC)
+Service Info: OS: Unix

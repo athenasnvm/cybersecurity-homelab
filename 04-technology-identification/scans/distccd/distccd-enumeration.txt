@@ -1,0 +1,10 @@
+# Nmap 7.99 scan initiated Wed Aug 19 17:33:45 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC -p 3632 -oN distccd-enumeration.txt 192.168.56.107
+Nmap scan report for 192.168.56.107
+Host is up (0.00068s latency).
+
+PORT     STATE SERVICE VERSION
+3632/tcp open  distccd distccd v1 ((GNU) 4.2.4 (Ubuntu 4.2.4-1ubuntu4))
+MAC Address: 08:00:27:1F:1B:CD (Oracle VirtualBox virtual NIC)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 19 17:33:51 2026 -- 1 IP address (1 host up) scanned in 6.33 seconds

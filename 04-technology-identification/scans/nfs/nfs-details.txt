@@ -1,0 +1,27 @@
+# Nmap 7.99 scan initiated Wed Aug 19 20:50:47 2026 as: /usr/lib/nmap/nmap --privileged --script nfs-ls,nfs-statfs -p 111,2049 -oN nfs-details.txt 192.168.56.107
+Nmap scan report for 192.168.56.107
+Host is up (0.00056s latency).
+
+PORT     STATE SERVICE
+111/tcp  open  rpcbind
+| nfs-statfs: 
+|   Filesystem  1K-blocks  Used       Available  Use%  Maxfilesize  Maxlink
+|_  /           7282168.0  1479748.0  5435420.0  22%   2.0T         32000
+| nfs-ls: Volume /
+|   access: Read Lookup Modify Extend Delete NoExecute
+| PERMISSION  UID  GID  SIZE   TIME                 FILENAME
+| drwxr-xr-x  0    0    4096   2012-05-14T03:35:33  bin
+| drwxr-xr-x  0    0    4096   2010-04-16T06:16:02  home
+| drwxr-xr-x  0    0    4096   2010-03-16T22:57:40  initrd
+| lrwxrwxrwx  0    0    32     2010-04-28T20:26:18  initrd.img
+| drwxr-xr-x  0    0    4096   2012-05-14T03:35:22  lib
+| drwx------  0    0    16384  2010-03-16T22:55:15  lost+found
+| drwxr-xr-x  0    0    4096   2010-03-16T22:55:52  media
+| drwxr-xr-x  0    0    4096   2010-04-28T20:16:56  mnt
+| drwxr-xr-x  0    0    4096   2012-05-14T01:54:53  sbin
+| drwxr-xr-x  0    0    4096   2010-04-28T04:06:37  usr
+|_
+2049/tcp open  nfs
+MAC Address: 08:00:27:1F:1B:CD (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Wed Aug 19 20:50:47 2026 -- 1 IP address (1 host up) scanned in 0.25 seconds

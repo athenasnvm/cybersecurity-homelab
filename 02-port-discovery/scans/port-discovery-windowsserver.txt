@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated Sun Aug 16 23:19:22 2026 as: /usr/lib/nmap/nmap --privileged -oN port-discovery-windowsserver.txt 192.168.56.108
+Nmap scan report for 192.168.56.108
+Host is up (0.00083s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+5985/tcp open  wsman
+MAC Address: 08:00:27:FC:1E:26 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sun Aug 16 23:19:27 2026 -- 1 IP address (1 host up) scanned in 5.05 seconds

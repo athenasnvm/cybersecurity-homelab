@@ -1,0 +1,5 @@
+$ ls -l /usr/bin/nmap
+-rwsr-xr-x 1 root root 780676 Apr  8  2008 /usr/bin/nmap
+
+$ nmap --version
+Nmap version 4.53 ( http://insecure.org )

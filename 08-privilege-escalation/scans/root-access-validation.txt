@@ -1,0 +1,14 @@
+$ whoami
+root
+
+$ id
+uid=1(daemon) gid=1(daemon) euid=0(root) groups=1(daemon)
+
+$ ls -lah /etc/shadow
+-rw-r----- 1 root shadow ... /etc/shadow
+
+$ head -n 3 /etc/shadow
+[REDACTED - file successfully read using effective root privileges]
+
+$ test -r /etc/shadow && echo "SHADOW FILE READABLE" || echo "SHADOW FILE NOT READABLE"
+SHADOW FILE READABLE

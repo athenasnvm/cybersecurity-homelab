@@ -1,0 +1,23 @@
+# Nmap 7.99 scan initiated Wed Aug 19 17:25:29 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC -p 111,2049 -oN nfs-enumeration.txt 192.168.56.107
+Nmap scan report for 192.168.56.107
+Host is up (0.0010s latency).
+
+PORT     STATE SERVICE VERSION
+111/tcp  open  rpcbind 2 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2            111/tcp   rpcbind
+|   100000  2            111/udp   rpcbind
+|   100003  2,3,4       2049/tcp   nfs
+|   100003  2,3,4       2049/udp   nfs
+|   100005  1,2,3      39356/udp   mountd
+|   100005  1,2,3      55760/tcp   mountd
+|   100021  1,3,4      55298/udp   nlockmgr
+|   100021  1,3,4      58912/tcp   nlockmgr
+|   100024  1          43567/tcp   status
+|_  100024  1          50836/udp   status
+2049/tcp open  nfs     2-4 (RPC #100003)
+MAC Address: 08:00:27:1F:1B:CD (Oracle VirtualBox virtual NIC)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 19 17:25:35 2026 -- 1 IP address (1 host up) scanned in 6.29 seconds
